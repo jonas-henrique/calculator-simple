@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+}
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+main{
+    flex: 1;
+}
+section {
+  max-width: 600px;
+  margin: 20px auto;
+}
+.all {
+  display: flex;
+  gap: 38px;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+div {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+input,
+button {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+input {
+  width: 301px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: end;
+  font-weight: bold;
+}
+button {
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 50px;
+  height: 55px;
+  transition: background 0.7s;
+  font-size: 30px;
+}
+#numbers button:hover {
+  background-color: #2e2efe;
+  color: white;
+}
+.bigger {
+  width: 105px;
+}
+#equal {
+  background-color: #ffff00;
+}
+#delete {
+  background-color: #fa5858;
+}
